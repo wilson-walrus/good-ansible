@@ -2,6 +2,7 @@
 
 - hosts: localhost
   gather_facts: true
+  ansible_connection: local
   roles:
     - osp-facts
 # Setup front-end load balancer tier
