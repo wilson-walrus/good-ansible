@@ -1,6 +1,7 @@
 ---
 
-- hosts: jumpbox
+- hosts: localhost
+  connection: local
   gather_facts: true
   roles:
   - name: osp-facts
