@@ -2,7 +2,6 @@
 
 - hosts: localhost
   gather_facts: true
-  connection: local
   roles:
     - osp-facts
 # Setup front-end load balancer tier
